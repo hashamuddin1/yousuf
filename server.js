@@ -8,6 +8,6 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use([router])
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT, () => {
     console.log(`Our Server is running`)
 })
